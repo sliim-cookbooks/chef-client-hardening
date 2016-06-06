@@ -1,0 +1,20 @@
+AllCops:
+  Include:
+    - metadata.rb
+    - '**/Gemfile'
+    - '**/Guardfile'
+    - attributes/**/*
+    - definitions/**/*
+    - libraries/**/*
+    - providers/**/*
+    - recipes/**/*
+    - resources/**/*
+    - spec/**/*
+    - test/**/*
+  Exclude:
+    - cookbooks/**/*
+    - vendor/**/*
+
+Metrics/LineLength:
+  Exclude:
+    - spec/**/*
