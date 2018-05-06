@@ -15,14 +15,6 @@ The following platforms and versions are tested and supported using Opscode's te
 - `Fedora 21`
 - `Fedora 22`
 
-## Attributes
-
-#### chef-client-hardening::default
-|               Key                      |  Type |                 Description                             |
-| -------------------------------------- | ----- | ------------------------------------------------------- |
-| `[chef-client-hardening][extra_dirs]`  | Array | Extra directories to restrict permissions (default: []) |
-| `[chef-client-hardening][extra_files]` | Array | Extra files to restrict permissions (default: [])       |
-
 ## Usage
 
 #### chef-client-hardening::default
