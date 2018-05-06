@@ -3,3 +3,5 @@
 /cookbooks
 /.kitchen/
 /.kitchen.local.yml
+/.bundle
+/vendor

@@ -51,7 +51,7 @@ You can use `rake` to invoke testing tasks (See `Rakefile` for details):
 $ rake test:checkstyle
 ```
 
-Will run `foodcritic` and `rubocop`.
+Will run `foodcritic` and `cookstyle`.
 
 ##### Chefspec
 ```

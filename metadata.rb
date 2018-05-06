@@ -2,10 +2,11 @@
 name 'chef-client-hardening'
 maintainer 'Sliim'
 maintainer_email 'sliim@mailoo.org'
-license 'Apache 2.0'
+license 'Apache-2.0'
 description 'Set correct owner/permissions for chef-client sensitive files'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version '1.0.0'
+chef_version '>= 12.0' if respond_to?(:chef_version)
 
 recipe 'default', 'Set owner/permissions of sensitive files'
 
