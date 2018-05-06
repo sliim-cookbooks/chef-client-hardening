@@ -19,9 +19,7 @@ The following platforms and versions are tested and supported using Opscode's te
 
 #### chef-client-hardening::default
 
-This recipe will set owner & group to `root` for `/etc/chef/` directory and `/etc/chef/client.rb`, `/etc/chef/client.pem` files.
-Additionally, it will look for `[chef-client-hardening][extra_dirs]` and `[chef-client-hardening][extra_files]` attributes to apply
-same permissions.
+This recipe will set owner & group to `root` for `/etc/chef/` and `/var/chef` directories and their sub directories/files.
 
 Directories permissions are set to `0700` and files to `0600`.
 
